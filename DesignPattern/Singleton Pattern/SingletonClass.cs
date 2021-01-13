@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace DesignPattern
+namespace DesignPattern.Singleton_Pattern
 {
     sealed class SingletonClass
     {
