@@ -1,8 +1,10 @@
-﻿namespace DesignPattern.Factory_Pattern
+﻿using DesignPattern.AbstractFactory_Pattern;
+
+namespace DesignPattern.Factory_Pattern
 {
-    public class ShapeFactory
+    public class ShapeFactory:AbstractFactory
     {
-        public Shape getShape(string type)
+        public Shape GetShape(string type)
         {
             return type switch
             {
