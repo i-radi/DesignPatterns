@@ -1,4 +1,4 @@
-namespace DesignPattern.Prototype_Pattern
+namespace DesignPattern.CreationalPatterns.Prototype_Pattern
 {
     public class Address
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DesignPattern.Singleton_Pattern
+namespace DesignPattern.CreationalPatterns.Singleton_Pattern
 {
     sealed class SingletonClass
     {

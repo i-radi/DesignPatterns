@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Linq;
-using DesignPattern.AbstractFactory_Pattern;
-using DesignPattern.Factory_Pattern;
-using DesignPattern.Prototype_Pattern;
-using DesignPattern.Singleton_Pattern;
+using DesignPattern.CreationalPatterns.Builder_Pattern;
 
 namespace DesignPattern
 {
@@ -69,6 +66,25 @@ namespace DesignPattern
             Console.WriteLine(tempEmp2.ToString());
             Console.WriteLine("========= Temp Emp 3 ==========================");
             Console.WriteLine(tempEmp3.ToString());
+            */
+            #endregion
+
+            #region Builder
+            /*
+            Console.WriteLine("***Builder Pattern***");
+            Director director = new Director();
+            IBuilder carBuilder = new Car("Jeep");
+            IBuilder motorCycleBuilder = new MotorCycle("Honda");
+
+            // Making Car
+            director.Construct(carBuilder);
+            Product car = carBuilder.GetVehicle();
+            Console.WriteLine($"Car {car.Show()}");
+            
+            //Making MotorCycle
+            director.Construct(motorCycleBuilder);
+            Product motorCycle = motorCycleBuilder.GetVehicle();
+            Console.WriteLine($"MotorCycle {motorCycle.Show()}");
             */
             #endregion
 

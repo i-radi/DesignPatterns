@@ -1,6 +1,6 @@
-﻿using DesignPattern.AbstractFactory_Pattern;
+﻿using DesignPattern.CreationalPatterns.AbstractFactory_Pattern;
 
-namespace DesignPattern.Factory_Pattern
+namespace DesignPattern.CreationalPatterns.Factory_Pattern
 {
     public class ShapeFactory:AbstractFactory
     {

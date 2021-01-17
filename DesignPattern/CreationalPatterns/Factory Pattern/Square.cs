@@ -1,4 +1,4 @@
-﻿namespace DesignPattern.Factory_Pattern
+﻿namespace DesignPattern.CreationalPatterns.Factory_Pattern
 {
     public class Square:Rectangle
     {

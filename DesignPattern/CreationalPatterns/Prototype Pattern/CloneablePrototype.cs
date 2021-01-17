@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace DesignPattern.Prototype_Pattern
+namespace DesignPattern.CreationalPatterns.Prototype_Pattern
 {
     public abstract class CloneablePrototype<T>
     {

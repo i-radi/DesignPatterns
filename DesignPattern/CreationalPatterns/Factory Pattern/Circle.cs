@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DesignPattern.Factory_Pattern
+namespace DesignPattern.CreationalPatterns.Factory_Pattern
 {
     public class Circle:Shape
     {
