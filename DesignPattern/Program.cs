@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Linq;
-using DesignPattern.CreationalPatterns.Builder_Pattern;
 
 namespace DesignPattern
 {
@@ -8,6 +6,7 @@ namespace DesignPattern
     {
         static void Main(string[] args)
         {
+            #region CreationalPatterns
 
             #region Singletol
             /*
@@ -86,6 +85,47 @@ namespace DesignPattern
             Product motorCycle = motorCycleBuilder.GetVehicle();
             Console.WriteLine($"MotorCycle {motorCycle.Show()}");
             */
+            #endregion
+
+            #endregion
+
+            #region StructuralPatterns
+
+            #region  Adapter
+
+            /*
+            Employee emp =new Employee ();
+            MachineOperator machineOperator=new MachineOperator ();
+            machineOperator.BasicSalary =1200;
+
+            emp.Name ="test"; emp.BasicSalary=1000;
+            SalaryAdapter calculator = new SalaryAdapter ();
+            var salary= calculator.CalcSalary(machineOperator);
+            WriteColoredLine(salary.ToString());
+            */
+
+            #endregion
+
+            #region Composite
+            /*
+            IEmployee John = new Employee("John", "IT");
+            IEmployee Mike = new Employee("Mike", "IT");
+            IEmployee Jason = new Employee("Jason", "HR");
+            IEmployee Eric = new Employee("Eric", "HR");
+            IEmployee Henry = new Employee("Henry", "HR");
+
+            IEmployee Ahmed = new Manager("Ahmed", "IT")
+                {SubOrdinates = {John,Mike}};
+            IEmployee Mohammed = new Manager("Mohammed", "HR")
+                {SubOrdinates = { Jason, Eric , Henry } };
+
+            IEmployee Mahmoud = new Manager("Mahmoud", "Project Manager")
+                { SubOrdinates = { Ahmed, Mohammed } };
+            
+            Mahmoud.GetDetails(1);
+            */
+            #endregion
+
             #endregion
 
             Console.ReadKey(true);
