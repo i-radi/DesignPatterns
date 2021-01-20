@@ -1,4 +1,5 @@
 ﻿using System;
+using DesignPattern.StructuralPatterns.Proxy;
 
 namespace DesignPattern
 {
@@ -123,6 +124,16 @@ namespace DesignPattern
                 { SubOrdinates = { Ahmed, Mohammed } };
             
             Mahmoud.GetDetails(1);
+            */
+            #endregion
+
+            #region Proxy
+            /*
+            SMSServiceProxy proxy = new SMSServiceProxy ();
+
+            Console.WriteLine(proxy.SendSMS("123", "01100000", "message 1"));
+            Console.WriteLine(proxy.SendSMS("123", "01100000", "message 1"));
+            Console.WriteLine(proxy.SendSMS("123", "01100000", "message 1"));
             */
             #endregion
 
