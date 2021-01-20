@@ -1,5 +1,5 @@
 ﻿using System;
-using DesignPattern.StructuralPatterns.Proxy;
+//Add a namespace for the Pattern used
 
 namespace DesignPattern
 {
@@ -7,6 +7,7 @@ namespace DesignPattern
     {
         static void Main(string[] args)
         {
+
             #region CreationalPatterns
 
             #region Singletol
@@ -134,6 +135,15 @@ namespace DesignPattern
             Console.WriteLine(proxy.SendSMS("123", "01100000", "message 1"));
             Console.WriteLine(proxy.SendSMS("123", "01100000", "message 1"));
             Console.WriteLine(proxy.SendSMS("123", "01100000", "message 1"));
+            */
+            #endregion
+
+            #region Flyweight
+            /*
+            DiscountCalcFactory discountFactory = new DiscountCalcFactory();
+            var calculator = discountFactory.GetDiscountCalc("day");
+            var val = calculator.GetDiscountValue(DateTime.Now.Date);
+            Console.WriteLine(val.ToString());
             */
             #endregion
 
