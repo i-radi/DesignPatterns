@@ -159,6 +159,30 @@ namespace DesignPattern
             */
             #endregion
 
+            #region  Decorator 
+            /*
+            //Add Behavior to Proxy Pattern
+            //Send Email after sent SMS
+            ConcereteSMSService smsService = new ConcereteSMSService ();
+            NotificationEmailDecorator emailDecorator = new NotificationEmailDecorator();             
+             
+            emailDecorator.SetService(smsService);
+            Console.WriteLine(emailDecorator.SendSMS("123","01100000","message 1"));
+            */
+            #endregion
+
+            #region Bridge
+            /*
+            PToolPSystemBridge payment1 =new PToolPSystemBridge(new CardPaymentTool());
+            payment1.Pay(new CDUPaymentSystem());
+            payment1.Pay(new MCAPaymentSystem());
+
+            PToolPSystemBridge payment2 = new PToolPSystemBridge(new NetBankingPaymentTool());
+            payment2.Pay(new CDUPaymentSystem());
+            payment2.Pay(new MCAPaymentSystem());
+            */
+            #endregion
+
             #endregion
 
             Console.ReadKey(true);
