@@ -185,6 +185,27 @@ namespace DesignPattern
 
             #endregion
 
+            #region BehavioralPatterns
+
+            #region ChainOfResponsibility
+            
+    //         var monkey = new MonkeyHandler();
+    //         var squirrel = new SquirrelHandler();
+    //         var dog = new DogHandler();
+    //
+    //         monkey.setNext(squirrel).setNext(dog);
+    //
+    //         Console.WriteLine("Chain: Monkey > Squirerel > Dog\n");
+    //         Client.ClientCode(monkey);
+    //         Console.WriteLine();
+    //
+    //         Console.WriteLine("Subchain: Squirrel > Dog\n");
+    //         Client.ClientCode(squirrel);
+            
+            #endregion
+
+            #endregion
+
             Console.ReadKey(true);
         }
     }
